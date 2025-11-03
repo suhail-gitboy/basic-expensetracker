@@ -10,8 +10,8 @@ const Modaldata = ({Setmodal,input,Setinput,transactions,Setransaction}) => {
        Setmodal(false)
     }
  return (
-    <div className="min-h-screen flex items-center justify-center fixed inset-0 bg-transparent p-6 z-30">
-      <div className="w-full max-w-lg    border border-[#0ea5ff33] rounded-2xl p-8 shadow-lg">
+    <div className="min-h-screen flex items-center justify-center fixed inset-0 backdrop-blur-md p-6 z-30">
+      <div className="w-full max-w-lg  bg-black  border border-[#0ea5ff33] rounded-2xl p-8 shadow-lg">
         <h2 className="text-white text-3xl font-semibold text-center mb-8 tracking-wide">fill your expense</h2>
 
         <form className="space-y-6">
